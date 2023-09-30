@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Quran</title>
+    <link rel="icon" type="image/x-icon" href="best.png">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+</head>
+
+<body>
+   
+    <div class="main-nav-container">
+        <nav>
+            
+            <label class="main-nav-logo">
+                <a href="index.html"><img src="best.png"></a>
+            </label>
+
+            <div class="main-nav-elem-container">
+                <ul>
+                    <li class="main-nav-elem"><a href="#nav-container">about</a></li>
+                    <li class="main-nav-elem"><a href="#sur_ver">Surah</a></li>
+                    <li class="main-nav-elem"><a href="index.html">Home</a></li>
+                </ul>
+            </div>   
+        </nav>
+    </div>  
+
+    <div id="nav-container" style="margin-top: 85px;">
+        <div class="nav-container-elem"><a href="juz.html"> <img src="juz.png"></a>
+            <div class="hover">
+             To Read Juz
+            </div>
+                </div>
+        <div class="nav-container-elem"><a href="surah.html"> <img src="surah.png"></a>
+            <div class="hover">
+                To Read Surah
+            </div>
+        </div>
+        
+        <div class="nav-container-elem"><a href="ayah.html"> <img src="ayah.png"></a>
+            <div class="hover">
+                To Read Ayah
+            </div>
+        </div>
+        <div class="nav-container-elem"><a href="99names.html"> <img src="99names.png"> </a>
+            <div class="hover">
+               To Read 99names
+            </div>
+        </div>
+      </div>
+       
+            
+        
+    <div id="about"> 
+        <h1>
+            About Holy Quran
+        </h1>
+        <img src="quran1.png" style="width:300px ;height: 200px;">
+        <p>The Holy Quran is a compilation of the verbal revelations given to the Holy Prophet Muhammad(sa) over a period of twenty three years. The Holy Quran is the Holy Book or the Scriptures of the Muslims. It lays down for them the law and commandments, codes for their social and moral behaviour, and contains a comprehensive religious philosophy. The language of the Quran is Arabic.
+
+            Besides its proper name, the Quran is also known by the following names: al Kitab (The Book); al Furqan (The Discrimination); al Dhikr (The Exposition); al Bayan (The Explanation); al Burhan (The Argument); al Haqq (The Truth); al Tanzil (The Revelation); al Hikmat (The Wisdom); al Huda (The Guide); al Hukm (The Judgment); al Mau’izah (The Admonition); al Rahmat (The Mercy); al-Noor (The Light); al-Rooh (The Word).</p>
+    </div>
+    <div id="sur_ver">
+        <h1>
+            Surahs and Verses
+        </h1>
+        <p>The Holy Quran is divided into 114 Surahs or Chapters and each Chapter consists of individual Ayaat or verses. There are in total 6,348 verses in the Holy Quran. The Surahs are of varying lengths, some consisting of a few lines while others run for many pages. Surah al Baqarah (Ch.2) is the longest Chapter comprising 287 verses while Surah al Kauthar (Ch. 108) is the shortest with only four verses including the tasmia.
+
+            The text of the Holy Quran has remained unchanged over the past 1400 years. And this is not strange since God says in the Holy Quran that He Himself will guard this book:
+            
+            “Surely it is We Who have revealed the Exposition, and surely it is We Who are its guardians” (15:10)
+            
+        </p>
+    </div>
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.querySelector(".main-nav-container");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    </script>
+</body>
+</html>

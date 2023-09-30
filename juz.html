@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Quran</title>
+    <link rel="icon" type="image/x-icon" href="best.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main-nav-container">
+        <nav>
+            
+            <label class="main-nav-logo">
+                <a href="index.html"><img src="best.png"></a>
+            </label>
+
+            <div class="main-nav-elem-container">
+                <ul>
+                    <li class="main-nav-elem"><a href="#nav-container">TOP</a></li>
+                    <li class="main-nav-elem"><a href="https://en.wikipedia.org/wiki/Juz%27"> about</a></li>
+                    <li class="main-nav-elem"><a href="index.html">Home</a></li>
+                </ul>
+            </div>   
+        </nav>
+    </div>  
+
+   
+<div id="nav-container" style="margin-top: 65px;">
+    <div class="nav-container-elem"><a href="juz.html"> <img src="juz.png"></a>
+        <div class="hover">
+         To Read Juz
+        </div>
+            </div>
+    <div class="nav-container-elem"><a href="surah.html"> <img src="surah.png"></a>
+        <div class="hover">
+            To Read Surah
+        </div>
+    </div>
+    
+    <div class="nav-container-elem"><a href="ayah.html"> <img src="ayah.png"></a>
+        <div class="hover">
+            To Read Ayah
+        </div>
+    </div>
+    <div class="nav-container-elem"><a href="99names.html"> <img src="99names.png"> </a>
+        <div class="hover">
+           To Read 99names
+        </div>
+    </div>
+  </div>
+        
+            
+            
+    <div id="main">
+        <div class="numbers">
+        <input type="text" placeholder="Enter Juz number(1-30):">
+       <button><img src="search.png"></button>
+       </div>
+       <div class="error">
+        <p>Invalid Juz no</p>
+    </div>
+    <div class="hide">
+        <div class="topic">Select the language</div>
+        <div class="trans">
+        <div class="english">
+            <button>English</button>
+        </div>
+        <div class="arabic">
+            <button>Arabic</button>
+        </div>
+        <div class="tamil">
+            <button>Tamil</button>
+        </div>
+        </div>
+        </div>
+        <div class="cont" style=" background: #0b2239;">
+            <a class="btn btn-left"><i class="fa-solid fa-caret-left" style="color: black;"></i></a>
+            <a class="btn btn-right"><i class="fa-solid fa-caret-right" style="color: black;"></i></a>
+            
+        <audio controls  id="my-audio">
+            <source class="audio" src="https://cdn.islamic.network/quran/audio/128/ar.alafasy/1.mp3">
+        </audio>
+
+      </div>
+      <div class="ayah-no" style="margin-top:15px;"> </div>
+     <div class="open">
+        <div class="engName" style="font-size: 30px;">
+            surah al fathiha
+        </div>
+        <hr>
+        <div class="arabicName" style="text-align: justify; font-size: 17px; word-wrap: break-word;">
+            surah al fathiha
+        </div>  
+    </div>     
+</div>
+
+    <script src="juz.js">  </script>
+
+</body>
+</html>
